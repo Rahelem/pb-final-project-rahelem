@@ -1,0 +1,24 @@
+{
+  "name": "pb-final-project-rahelem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahelem/pb-final-project-rahelem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Rahelem/pb-final-project-rahelem/issues"
+  },
+  "homepage": "https://github.com/Rahelem/pb-final-project-rahelem#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
