@@ -61,5 +61,17 @@ function selectCharacter(playerName) {
       console.log("This character doesn't exist, try again.");
       return chooseCharacter(playerName);
     }
-    return createFighter
+    return createFighter(choice);
+}
+
+function attack(attacker, defender, moveKey) {
+  console.log(`/n${attacker.naem} tries ${moveKey}!`);
+
+  const move = attacker.moves[moveKey];
+  if (!move) {
+    console.log("That move doesn't exist  - you lose your turn.");
+    return;
+  }
+
+  let dmg = move.damage;
 }
