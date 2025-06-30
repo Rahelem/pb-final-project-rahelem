@@ -36,7 +36,7 @@ Running the Game:
 
 node index.js
 
-(Assuming your game code is saved as index.js in your project folder.)
+
 Gameplay Instructions:
 
     Both players choose a fighter from the list.
@@ -48,8 +48,6 @@ Gameplay Instructions:
         Or defend (parry / counter)
 
     The game continues until one player's HP drops to 0.
-
-The first player with HP left wins!
 
 Project Structure:
 
