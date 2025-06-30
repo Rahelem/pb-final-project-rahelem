@@ -4,7 +4,7 @@ Street Terminal Fighter
 
 A simple terminal-based fighting game written in Node.js, where two players choose iconic fighters and battle turn-based with special moves, parries, and counters.
 
-Features
+Features:
 
     4 Playable Characters: Ryu, Ken, ChunLi, Guile — each with unique HP and moves.
 
@@ -29,9 +29,9 @@ Prerequisites:
 
 Installation:
 
-npm install
+    npm install
+    npm i readline-sync
 
-(This uses your existing package.json and package-lock.json for installing dependencies like readline-sync.)
 Running the Game:
 
 node index.js
