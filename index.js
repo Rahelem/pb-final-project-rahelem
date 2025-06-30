@@ -56,7 +56,7 @@ function createFighter(templateName) {
 
 function chooseCharacter(playerName) {
     const names = Object.keys(characterRoster);
-    console.log(`${playerName}, choose your character: ${names.join("")}`);
+    console.log(`${playerName}, choose your character: ${names.join(", ")}`);
     const choice = readlineSync.question("> ");
     if (!characterRoster[choice]) {
       console.log("This character doesn't exist, try again.");
